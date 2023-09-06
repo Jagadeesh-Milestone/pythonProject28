@@ -1,70 +1,51 @@
 #sequences
-#list
-#list is a collection of data and this data may be anytype.
-#list allows duplicate values
-#list allows index calling and index slicing
-#list is mutable meaning that once we create a list we van modify
-#the data/values
-#list is taken in [] and values are separated by comma
-a=[10,10.2,5+6j,True,'bangalore']
+#a list is a collection of data and this data may be any type
+#list is taken in []
+#list is having ordered elements
+#list allows duplicate values,index calling and index slicing
+#list is mutable meaning that we can change the values
+l=[]
+print(l)
+print(type(l))
+
+a=[10,10.0,5+6j,True,'bangalore',[10,20,30]]
 print(a)
 print(type(a))
 
-#list allows duplicate values
-b=[10,20,30,10,20,10]
-print(b)
-
-#len()
+#len():
 #it is used to find the no of values in a list
-c=[10,20,30,10,20,10]
-print(len(c))
+b=[10,20,30,40]
+print(len(b))
 
-#count()
-#it is used to find the no of occurrences of a value
+#count():
+#it is used to find the no of appearances of an element.
 c=[10,20,30,10,20,10]
 print(c.count(10))
-print(c.count(20))
 print(c.count(100))
 
-#index()
-#the index position of first value is 0,second value is 1...
-b=[10,20,30,40,50,60]
-print(b.index(60))
-#print(b.index(100))
-print(b[0])
-#print(b[10]
-
-#negative index:
-#the index position of last element is -1 before element is -2...
-l=[10,20,30]
-print(l[-1])
-print(l[-2])
-#print(l[-6])
-
-#append():
-#it is used to add an element at the end of a list
-a=[10,20,30,40]
-a.append(100)
-print(a)
-
-#pop():
-#it is used to delete last element from end of a list
-b=[100,200,300,150]
-#b.pop()
-#print(b)
-#we can also delete exact element by using index position
-b.pop(0)
-print(b)
-
-#extend():
-#it is used to add multiple values at the end of a list
-c=[10,20,30]
-c.extend([20,30,40])
-print(c)
-
-#insert():
-#it is used to insert the values at particular index position
-d=[10,30,40,50,60]
-d.insert(1,20)
-d.insert(10,100)
+#duplicates are allowed
+d=[10,20,10,20,10]
 print(d)
+
+#append()
+#it is used to add an element at the end of a list
+e=[100,200,300]
+e.append(400)
+print(e)
+
+#index position:
+#the index position of first element is 0,second is 1,...
+f=[10,20,30,40,50]
+print(f.index(10))
+print(f.index(50))
+#print(f.index(100))
+#finding the value in a particular index position
+print(f[0])
+print(f[4])
+#print(f[5])
+#Negative index:
+#the negative index position is from right to left
+#the index position of last element is -1 and -2,...
+print(f[-1])
+print(f[-5])
+#print(f[-6])

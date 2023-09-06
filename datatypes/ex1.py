@@ -3,29 +3,28 @@
 #python has 6 types of inbuilt datatypes:
 #number data types-int,float,complex
 #sequences-list,tuple,range,string
-#mapping-dictionary
+#mapping-dictionary(dict)
 #set-set,frozenset
 #binary-bytes,bytearray
 #boolean-True and False
 
-#numbers
-#integers:
+#numbers:
+#integer:
 #in python any real number will be treated as an integer
-a=60
+a=456576554
 print(a)
 print(type(a))
 
 #float:
-#in python any decimal numbers will be treated as a float value
-a=60.8767
-print(a)
-print(type(a))
+#in python any decimal numbers will be treated as a floating value
+b=10.67
+print(b)
+print(type(b))
 
-#complex numbers:
-#the combination of real number and an imaginary number
-d=5+6j
-print(d)
-print(type(d))
-print(d.real)
-print(d.imag)
-
+#complex:
+#it is the combination of real number and an imaginary number
+c=5+6j
+print(c)
+print(type(c))
+print(c.imag)
+print(c.real)

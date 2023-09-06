@@ -1,4 +1,4 @@
-#booleans
+#booleans:
 #True and False
 a=True
 print(a)
@@ -8,6 +8,9 @@ b=False
 print(b)
 print(type(b))
 
-#True=1 False=0
-print(True*100)
-print(False*50)
+#True=1 and False=0
+c=True*45
+print(c)
+
+d=False*45
+print(d)

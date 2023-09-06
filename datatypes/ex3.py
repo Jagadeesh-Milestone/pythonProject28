@@ -1,29 +1,29 @@
 #binary numbers:
-#they starts with 0b
+#binary numbers starts with 0b
 #base value is 2
 #possible values are 0,1
-a=10
+a=7
 print(bin(a))
 
-b=0b1010
+b=0b111
 print(b)
 
-#hexa decimal numbers:
+#hexa decimal numbers
 #they starts with 0x
 #base value is 16
 #possible values are 0-9 and a-f
-d=200
-print(hex(d))
+c=16
+print(hex(c))
 
-e=0xc8
-print(e)
+d=0xf
+print(d)
 
-#octal numbers
+#octal numbers:
 #they starts with 0o
 #base value is 8
 #possible values are 0-7
-f=19
-print(oct(f))
+e=10
+print(oct(e))
 
-g=0o23
-print(g)
+f=0o10
+print(f)
