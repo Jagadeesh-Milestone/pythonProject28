@@ -1,7 +1,7 @@
 #changing the recursion limit
 import sys
 print(sys.getrecursionlimit())
-sys.setrecursionlimit(100)
+sys.setrecursionlimit(1100)
 print(sys.getrecursionlimit())
 i=1
 def d1():

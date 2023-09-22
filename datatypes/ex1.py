@@ -11,7 +11,7 @@
 #numbers:
 #integer:
 #in python any real number will be treated as an integer
-a=456576554
+a=20
 print(a)
 print(type(a))
 
