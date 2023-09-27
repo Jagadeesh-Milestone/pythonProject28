@@ -36,7 +36,7 @@ print(e+(6,7,8,1))
 
 #repetetion
 f=(10,20,30)
-print(f*2)
+print(f*3)
 
 g=(10)
 print(g)

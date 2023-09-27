@@ -39,7 +39,7 @@ print(e)
 f=[10,20,30,40,50]
 print(f.index(10))
 print(f.index(50))
-#print(f.index(100))
+#print(f.index(100))#value error
 #finding the value in a particular index position
 print(f[0])
 print(f[4])
@@ -64,8 +64,8 @@ print(l)
 
 #extend():
 #it is used to add multiple values at the end of  a list
-a=[100,200,300]
-a.extend([10,20,30])
+a=[1300,200,300]
+a.extend([10,20,0])
 print(a)
 
 #insert():
@@ -102,7 +102,7 @@ print(g)
 #sort():
 #it is used to print the elements in ascending or descending order
 h=[10,40,30,20,50]
-h.sort(reverse=False)
+h.sort()
 print(h)
 
 h.sort(reverse=True)

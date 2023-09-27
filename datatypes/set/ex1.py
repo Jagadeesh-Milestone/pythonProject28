@@ -1,6 +1,6 @@
 #set
 #set is collection of data and this data may be anytype
-#set dont allow index calling,index slicing and duplicate values
+#set dont allow index calling,index slicing and duplicatevalues
 #set is taken in {}
 #set is having unordered elements
 #set is mutable
@@ -18,7 +18,7 @@ print(b)
 
 #add
 c={100,200,300}
-c.add(300)
+c.add(400)
 print(c)
 
 #update
