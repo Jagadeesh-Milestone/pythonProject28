@@ -97,3 +97,13 @@ o="632556"
 print(m.isalnum())
 print(n.isalnum())
 print(o.isalnum())
+#max()
+x="hyderabad"
+print(max(x))
+print(min(x))
+
+l=[10,20,30,5,4,]
+print(max(l))
+print(min(l))
+
+#capitalize:
