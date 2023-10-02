@@ -1,5 +1,5 @@
 #center:
-#it is used to align the string,using a specified character
+#it is used to align the string at the center,using a specified character
 x="bangalore"
 print(x.center(30))
 #endswith():

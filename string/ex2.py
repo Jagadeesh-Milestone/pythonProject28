@@ -107,3 +107,5 @@ print(max(l))
 print(min(l))
 
 #capitalize:
+x="hello world"
+print(x.capitalize())
