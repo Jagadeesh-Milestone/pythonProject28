@@ -1,8 +1,13 @@
 #atm use case:
 while True:
-    balance=50000
     print('    welcome to ICICI bank     ')
-    print('1.balance\n 2.withdraw\n 3.deposit\n 4.quit')
+    balance=50000
+    pin=int(input('enter your pin:'))
+    if pin>999 and pin<9999:
+        print('1.balance\n 2.withdraw\n 3.deposit\n 4.quit')
+    else:
+        print('enter only 4 digits')
+        break
     option=int(input('enter your option:'))
     if option==1:
         print('your account balance is:',balance)
