@@ -7,6 +7,7 @@ try:
     print('statement one')
 except Exception:
     print('statement two')
+
 else:
     print('statement three')
 finally:
