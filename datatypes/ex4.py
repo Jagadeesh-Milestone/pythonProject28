@@ -43,7 +43,7 @@ print(f.index(50))
 #finding the value in a particular index position
 print(f[0])
 print(f[4])
-#print(f[5])
+#print(f[5])#index error
 #Negative index:
 #the negative index position is from right to left
 #the index position of last element is -1 and -2,...

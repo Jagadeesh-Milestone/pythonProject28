@@ -12,7 +12,7 @@ print(b)
 #they starts with 0x
 #base value is 16
 #possible values are 0-9 and a-f
-c=11
+c=1
 print(hex(c))
 
 d=0xf
@@ -25,5 +25,5 @@ print(d)
 e=10
 print(oct(e))
 
-f=0o10
+f=0o11
 print(f)

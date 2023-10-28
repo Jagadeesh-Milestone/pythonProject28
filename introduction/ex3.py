@@ -15,6 +15,8 @@ print(ewk7)
 
 #note:
 #variables may be alphanumeric
-#variables should not start with numbers or symbols
+#variables should not start with numbers or symbols(except _)
 #variable name should not have spaces
 
+_a=100
+print(_a)

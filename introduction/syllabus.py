@@ -1,5 +1,4 @@
 #syllabus
-
 #introduction
 #variables and keywords
 #data types
@@ -16,3 +15,4 @@
 #date and time
 #regular expressions
 #two libraries--numpy and pandas
+#matplot
