@@ -11,3 +11,4 @@ print(np.__version__)
 
 x=np.array([10,20,30,40])
 print(x)
+print(type(x))
